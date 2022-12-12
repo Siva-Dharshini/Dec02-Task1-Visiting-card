@@ -1,0 +1,44 @@
+body{
+   align-content: center;
+}
+
+.card{
+    position: absolute;
+border: 5px solid rgb(208, 148, 223);
+color:aliceblue;
+background-image:linear-gradient(pink, rgb(228, 35, 109));
+box-shadow: 4px 4px 4px 4px gray;
+height: 300px;
+width: 500px;
+text-align: center;
+margin-left: 400px;
+margin-top: 150px;
+
+}
+h1{
+    color: crimson;
+}
+h3{
+    color: rgb(88, 14, 54);
+}
+.cardabs1{
+    position: absolute;
+    top:0;
+    background-image: radial-gradient(rgb(178, 111, 212),rgb(187, 125, 189), pink);
+    height:20px;
+    width:500px;
+    
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.cardabs2{
+    position: absolute;
+    bottom:0;
+    background-image: radial-gradient(rgb(178, 111, 212),rgb(187, 125, 189), pink);
+    height:30px;
+    width:500px;
+    
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
